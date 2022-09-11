@@ -1,0 +1,85 @@
+p{
+  margin: 1px;
+}
+
+.titulo{
+  font-weight: 600;
+  width: 50%;
+  margin: 1rem auto;
+  text-align: start;
+}
+
+.app{
+  background-color: #0288D1;
+  width: 600px;
+  display: grid;
+  margin: 2rem auto;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+.form-money > form{
+  color: black; 
+  display: flex;
+  flex-direction: column;
+  background-color: #B3E5FC;
+  padding: 1rem;
+  width: 50%;
+  text-align: center;
+  margin: 0.2rem auto;
+}
+input{
+  margin: 0.5rem;
+}
+
+.error{
+  background-color: #E040FB;
+  color: white;
+  width: 600px;
+  padding: 0.5rem;
+
+}
+
+.main-control{
+  background: rgba(255, 255, 255, 0.4);
+  width: 80%;
+  border-radius: 1rem  4rem;
+  margin: 0.3rem auto;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.balance {
+  padding: 0.1rem;
+}
+
+.add-subscriptions >form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.single-item{ 
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: #B3E5FC;
+  text-align: center;
+  align-items: center;
+  color: black;
+} 
+.img-single{
+  width: 20%;
+  object-fit: cover;
+}
+
+
+.errors{
+  background-color: #E040FB;
+  color: white;
+  margin: 0.2rem;
+  border-radius: 2rem 4rem;
+}
